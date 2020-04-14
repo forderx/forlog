@@ -80,3 +80,6 @@ i {
     font-size: 100px;
     margin:60px;
 }
+i:hover {
+    font-size: 120px;
+}    
