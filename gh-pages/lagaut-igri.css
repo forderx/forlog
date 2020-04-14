@@ -1,0 +1,124 @@
+body {
+    background-color: #0e0e10;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p,
+h1,
+h2,
+h3 {
+    color: white;
+}
+
+.mainmenu {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 50px;
+    background: #0D0D0C;
+    box-shadow: 0 0 5px 2px;
+}
+
+    .mainmenu > a {
+        margin-right: 100px;
+        position: relative;
+        float: left;
+        left: 500px;
+        top: 15px;
+        transition: 0.5s;
+        font-family: DejaVu Sans Mono, monospace;
+    }
+
+        .mainmenu > a:after {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background-color: white;
+            content: "";
+            transition: width 0.3s ease-out;
+        }
+
+        .mainmenu > a:hover:after,
+        .mainmenu > a:focus:after {
+            width: 100%;
+        }
+
+.topmain {
+    position: absolute;
+    top: -17px;
+    left: 8%;
+    color: black;
+    background: white;
+    font-family: Andale Mono, monospace;
+    width: 50px;
+    border-radius: 5%;
+    font-size: 30px;
+}
+
+.toptwo {
+    color: white;
+}
+
+.mainblock {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 1200px;
+    height: 3150px;
+    background-color: #0D0D0C;
+    box-shadow: 0 0 5px 2px;
+}
+
+    .mainblock > h1 {
+        position: absolute;
+        text-align: center;
+        left: 2%;
+        top: 10px;
+        font-family: Andale Mono, monospace;
+    }
+
+    .mainblock > img {
+        position: absolute;
+        top: 100px;
+        left: 20%;
+        height: 400px;
+        width: 700px;
+    }
+
+    .mainblock > p {
+        position: relative;
+        text-align: left;
+        width: 1000px;
+        left: 10%;
+        top: 550px;
+        font-family: Andale Mono, monospace;
+    }
+   
+
+p > span {
+    border-bottom: solid 1px white;
+    display: table;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.mictema {
+    border: none;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom:10px;
+    margin-left: unset;
+}
+.jpgmic {
+    position: relative;
+        
+}
