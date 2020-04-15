@@ -83,3 +83,10 @@ i {
 i:hover {
     color: darkgray;
 }    
+@media all and (min-width: 1920px) {
+    i{
+        top:390px;
+        left: 35%;
+        font-size: 150px;
+    }   
+}
