@@ -86,7 +86,7 @@ i:hover {
 @media all and (min-width: 1920px) {
     i{
         top:390px;
-        left: 35%;
+        left: 30%;
         font-size: 150px;
     }   
 }
