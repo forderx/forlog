@@ -340,3 +340,81 @@ input:checked + .slider:before {
         top:10px;
     }
 }
+@media all and (min-width: 375px) {
+    .mainmenu {
+        height: 100px;
+    }
+    .mainmenu > a {
+        top: 30px;
+        font-size: 35px;
+    }
+    .topmain {
+    top: -30px;
+    left: 8%;
+    width: 90px;
+    font-size: 55px;
+}
+.toptwo {
+    color: white;
+    transition: 0.5s;
+}
+.mainblock {
+    top: 150px;
+    left: 10px;
+    width: 850px;
+    grid-template-rows: 900px 900px 900px 900px 900px;
+    grid-template-columns: 1fr;
+    box-shadow: 0 0 5px 2px;
+    max-height: 80%;
+}
+.mainblock > .grid {
+    font-size: 9vw;
+    padding: .5em;;
+}
+
+.grid > img {
+    position: relative;
+    top: 160px;
+    left: 0%;
+    height: auto;
+    width: 600px;
+}
+.h1 {
+    top: -5px;
+    left: -5px;
+    font-size: 50px;
+    width: 800px;
+    text-align: center;
+}
+.p {
+    position:absolute;
+    left: 0px;
+    top: 60%;
+    width: 800px;
+    font-size: 35px;
+    text-align:center;
+    transition: 0.5s;
+}
+.b1 {
+    font-size: 50px;
+    top: 90%;
+    left: 33%;
+}
+.data {
+    top: 90%;
+    left: 10px;
+    font-size: 30px;
+}
+.rightblock {
+    left: 90%;
+    top: 10%;
+    width: 100px;
+    height: auto;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    grid-template-columns: 1fr;
+}
+.switch {
+    left: 0.2%;
+}
+
+} 
