@@ -19,7 +19,6 @@ h3 {
 }
 .mainmenu {
     position:fixed;
-    z-index:99999;
     width: 100%;
     left: 0%;
     right: 0%;
