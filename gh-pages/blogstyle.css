@@ -365,7 +365,7 @@ input:checked + .slider:before {
     grid-template-rows: 900px 900px 900px 900px 900px;
     grid-template-columns: 1fr;
     box-shadow: 0 0 5px 2px;
-    max-height: 80%;
+    max-height: 95%;
 }
 .mainblock > .grid {
     font-size: 9vw;
