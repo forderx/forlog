@@ -362,7 +362,7 @@ input:checked + .slider:before {
     top: 150px;
     left: 10px;
     width: 850px;
-    grid-template-rows: 900px 900px 900px 900px 900px;
+    grid-template-rows: 1200px 1200px 1200px 1200px 1200px;
     grid-template-columns: 1fr;
     box-shadow: 0 0 5px 2px;
     max-height: 95%;
@@ -397,8 +397,8 @@ input:checked + .slider:before {
 }
 .b1 {
     font-size: 50px;
-    top: 90%;
-    left: 33%;
+    top: 93%;
+    left: 27%;
 }
 .data {
     top: 90%;
