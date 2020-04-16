@@ -185,6 +185,7 @@ input:checked + .slider:before {
     left: 80%;
     top: 100px;
     width: 200px;
+    background-color: #0D0D0C;
     height: auto;
     grid-template-rows: ;
     grid-template-columns: 1fr;
@@ -194,7 +195,7 @@ input:checked + .slider:before {
     .rightblock > .grid {
         position: relative;
         padding: .5em;
-        background-color: #0D0D0C;
+        background-color: initial;
         text-align: center;
         border-bottom: solid 1px gray;
         font-size: 20px;
