@@ -340,7 +340,7 @@ input:checked + .slider:before {
         top:10px;
     }
 }
-@media all and (min-width: 375px) {
+@media screen and (max-device-width: 375px) {
     .mainmenu {
         height: 100px;
     }
