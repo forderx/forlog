@@ -4,6 +4,7 @@ body {
     background-size: 1366px;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    transition: 0.5s;
 }
 a {
     text-decoration: none;
@@ -26,6 +27,7 @@ h3 {
     height: 50px;
     background: #BFBEBD;
     box-shadow: 0 0 5px 2px;
+    transition: 0.5s;
 }
     .mainmenu > a {
         margin-right: 100px;
@@ -61,22 +63,25 @@ h3 {
     width: 50px;
     border-radius: 5%;
     font-size: 30px;
+    transition: 0.5s;
 }
 .toptwo {
     color: white;
+    transition: 0.5s;
 }
 .mainblock {
     position: absolute;
     top: 100px;
     left: 100px;
     width: 800px;
-    background: black;
+    background: #0D0D0C;
     display: grid;
     grid-template-rows: 400px 400px 400px 400px 400px;
     grid-template-columns: 1fr;
     box-shadow: 0 0 5px 2px;
     overflow-y: scroll;
     max-height: 500px;
+    transition: 0.5s;
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -102,9 +107,10 @@ h3 {
     position: relative;
     font-size: 5vw;
     padding: .5em;
-    background-color: #0D0D0C;
+    background-color: initial;
     text-align: center;
     border-bottom: solid 1px gray;
+    transition: 0.5s;
 }
 
 .grid > img {
@@ -121,6 +127,58 @@ h3 {
     font-size: 20px;
     color: white;
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    transition: 0.5s;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch {
+    left: 90%;
+}
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }
 .rightblock {
     display: grid;
@@ -132,6 +190,7 @@ h3 {
     grid-template-rows: ;
     grid-template-columns: 1fr;
     box-shadow: 0 0 5px 2px;
+    transition: 0.5s;
 }
     .rightblock > .grid {
         position: relative;
@@ -141,6 +200,7 @@ h3 {
         border-bottom: solid 1px gray;
         font-size: 20px;
         color: white;
+        transition: 0.5s;
     }
         .rightblock > .grid:hover {
             background-color: Highlight;
@@ -154,6 +214,7 @@ h3 {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     border-bottom: 2px solid white;
     text-align: left;
+    transition: 0.5s;
 }
 .p {
     position:absolute;
@@ -162,6 +223,7 @@ h3 {
     width: 300px;
     font-size: 15px;
     text-align:left;
+    transition: 0.5s;
 }
 .b1 {
     background-color: darkgray;
@@ -177,6 +239,7 @@ h3 {
     position: absolute;
     border-bottom: 3px solid grey;
     border-right: solid 3px grey;
+    transition: 0.5s;
 }
 
     .b1:focus {
@@ -190,6 +253,7 @@ h3 {
     left: 10px;
     color: white;
     font-size: 10px;
+    transition: 0.5s;
 }
 @media all and (min-width: 1920px) {
     .mainblock {
@@ -271,5 +335,8 @@ h3 {
     }
     .rightblock > .grid {
         font-size: 40px;
+    }
+    .switch {
+        top:10px;
     }
 }
