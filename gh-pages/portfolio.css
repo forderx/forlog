@@ -104,7 +104,10 @@ h3 {
         .card:hover .boxback {
             transform: rotateY(360deg);
         }
-
+.yb {
+    width: 500px;
+    height: 300px;
+}
 @media all and (min-width: 1920px) {
     .mainblock {
         width: 70%;
