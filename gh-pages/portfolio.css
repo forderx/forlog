@@ -105,6 +105,100 @@ h3 {
             transform: rotateY(360deg);
         }
 
+@media all and (min-width: 1920px) {
+    .mainblock {
+        width: 70%;
+        max-height: 80%;
+        grid-template-rows: 550px 550px 550px 550px 550px;
+    }
+    .mainmenu {
+        height: 70px;
+    }
+    .topmain {
+        top: -20px;
+        width: 1000px;
+        color: black;
+        width: 65px;
+        font-size: 40px;
+    }
+
+    .toptwo {
+        color: white;
+    }
+    .mainmenu > a {
+        margin-right: 150px;
+        font-size: 20px;
+        position: relative;
+        float: left;
+        left: 700px;
+        top: 23px;
+        transition: 0.5s;
+        font-family: DejaVu Sans Mono, monospace;
+    }
+    .h1 {
+        position: absolute;
+        top: -5px;
+        left: 10px;
+        font-size: 35px;
+        width: 350px;
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        border-bottom: 2px solid white;
+        text-align: left;
+    }
+
+    .p {
+        position: absolute;
+        left: 10px;
+        top: 30%;
+        width: 350px;
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .b1 {
+        background-color: darkgray;
+        border: none;
+        color: white;
+        padding: 10px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        top: 85%;
+        left: 75%;
+        position: absolute;
+        border-bottom: 3px solid grey;
+        border-right: solid 3px grey;
+    }
+    .data {
+        position: absolute;
+        top: 90%;
+        left: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    .grid > img {
+        top: 25px;
+        left: 45%;
+        height: auto;
+        width: 550px;
+    }
+    .rightblock > .grid {
+        font-size: 40px;
+    }
+    .switch {
+        top:10px;
+    }
+    .box,
+        .boxback {
+            top: 100px;
+            width: 1000px;
+            height: 600px;
+    }
+    img {
+    width: 1000px;
+    height: 600px;
+}
 @media screen and (max-device-width: 400px) {
     .mainmenu {
         height: 100px;
