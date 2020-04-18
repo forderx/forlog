@@ -133,6 +133,35 @@ i:hover {
     color: darkgray;
 }    
 @media all and (min-width: 1920px) {
+    .mainblock {
+        width: 70%;
+        max-height: 80%;
+        grid-template-rows: 550px 550px 550px 550px 550px;
+    }
+    .mainmenu {
+        height: 70px;
+    }
+    .topmain {
+        top: -20px;
+        width: 1000px;
+        color: black;
+        width: 65px;
+        font-size: 40px;
+    }
+
+    .toptwo {
+        color: white;
+    }
+    .mainmenu > a {
+        margin-right: 150px;
+        font-size: 20px;
+        position: relative;
+        float: left;
+        left: 700px;
+        top: 23px;
+        transition: 0.5s;
+        font-family: DejaVu Sans Mono, monospace;
+    }
     i{
         top:390px;
         left: 30%;
