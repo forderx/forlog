@@ -198,6 +198,7 @@ h3 {
     img {
     width: 1000px;
     height: 600px;
+    }
 }
 @media screen and (max-device-width: 400px) {
     .mainmenu {
