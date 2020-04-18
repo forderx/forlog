@@ -1,7 +1,7 @@
 var chbox;
     chbox=document.getElementById('bone');
         function changecolor() {
-        var chbox;
+        let chbox;
         chbox=document.getElementById('bone');
             if(chbox.checked) {
                 document.getElementById("mainmenu").style.background = "Gainsboro";
@@ -61,7 +61,7 @@ var chbox;
             }
         }
         function changeothercolor(){
-            var chbox;
+            let chbox;
             chbox=document.getElementById('bone');
             if(chbox.checked){
                 document.getElementById("mainmenu").style.background = "Gainsboro";
