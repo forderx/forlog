@@ -29,6 +29,8 @@ var chbox;
                 document.getElementsByClassName("topmain")[0].style.color = "white";
                 document.getElementsByClassName("topmain")[0].style.background = "black";
                 document.getElementsByClassName("toptwo")[0].style.color = "black";
+                document.getElementsByClassName("mainmenu")[0].getElementsByTagName("a")[0].style.backgroundcolor = "black";
+                document.getElementsByClassName("mainmenu")[0].getElementsByTagName("a")[1].style.backgroundcolor = "black";
             }
             else {
                 document.getElementById("mainmenu").style.background = "#0D0D0C";
