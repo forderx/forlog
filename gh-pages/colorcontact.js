@@ -1,4 +1,4 @@
-function changeothercolor(){
+function changecolor(){
             let chbox;
             chbox=document.getElementById('bone');
             if(chbox.checked){
