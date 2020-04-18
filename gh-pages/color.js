@@ -26,6 +26,7 @@ var chbox;
                 document.getElementsByTagName("h1")[3].style.color = "black";
                 document.getElementsByTagName("a")[0].style.color = "black";
                 document.getElementsByTagName("a")[1].style.color = "black";
+                document.getElementsByTagName("a")[2].style.color = "black";
                 document.getElementsByClassName("topmain")[0].style.color = "white";
                 document.getElementsByClassName("topmain")[0].style.background = "black";
                 document.getElementsByClassName("toptwo")[0].style.color = "black";
