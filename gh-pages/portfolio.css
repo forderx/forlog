@@ -195,7 +195,7 @@ h3 {
             width: 1000px;
             height: 600px;
     }
-    img {
+    .yb {
     width: 1000px;
     height: 600px;
     }
@@ -218,4 +218,15 @@ h3 {
     color: white;
     transition: 0.5s;
 }
+    
+    .box,
+        .boxback {
+            top: 30%;
+            width: 1000px;
+            height: 600px;
+    }
+    .yb {
+    width: 1000px;
+    height: 600px;
+    }
 
